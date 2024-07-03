@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+<style type="text/css">
+#main{width: 80%;margin: 0 auto;}
+#m{width: 100%;height: 250px; }
+#n{width: 100%;height:500px }
+#n1{width: 70%;float: left;height: 450px}
+#n2{width: 30%;float: left; height: 450px}
+#nn1{width: 50%;float: left; height: 450px; }
+#nn2{width: 50%;float: left; height: 450px}
+#no1{width: 70%;float: left; height: 50px;}
+#no{width: 100%;padding-top: 50px}
+#no2{width: 30%;float: left; height: 50px}
+body{background-image: url(34.jpg);
+background-repeat: no-repeat;
+background-size: 1700px 1000px; }
+</style>
+<script type="text/javascript">
+     setInterval(test,2000);
+     var array = new Array();
+     var index = 0;
+     var array =new Array("35.jpg","36.jpg","37.jpg","38.jpg","39.jpg");
+     function test(){
+      var myimg =document.getElementById("imgs");
+      if (index == array.length - 1) 
+      {
+        index=0;}
+        else{index++;}
+        myimg.src =array[index];
+      
+     }
+     </script>
+</head>
+<body>
+<div id="main">
+<div id="m"><img src="41.png" style="width: 580px;padding: 0px 220px 110px 950px;transform: rotate(15deg);"></div>
+  <div id="n">
+<div id="n1">
+<img src="35.jpg" style="width: 100% ; height: 550px" id="imgs">
+</div>
+<div id="n2">
+<div id="nn1">
+<h1>小组成员</h1>
+<h3>虞政清</h3>
+负责内容：框架总设计兼首页搭建<br>
+
+<h3>陶帅鹏</h3>
+负责内容：首页搭建兼美观优化<br><br>
+<h3>张智</h3>
+负责内容：联系我们子页搭建兼页面整合<br><br>
+<h3>郭栩豪</h3>
+负责内容：作者简介子页搭建兼图片收集<br><br>
+</div>
+<div id="nn2">
+<br><br><br><br><br><br><br><br>
+<h3>于博如</h3>
+负责内容：解读与剖析子页搭建兼内容选取<br><br>
+<h3>张祥</h3>
+负责内容：温馨提示子页搭建兼风格选取<br><br>
+<h3>王宇欣</h3>
+负责内容：动漫人物分析子页搭建兼排版设计<br><br>
+
+</div>
+</div>
+
+
+
+
+
+
+<div id="no">
+<div id="no1">
+<br><br><br><br><br><br><br>
+联系地址：黑龙江大庆市龙凤区新阳路39号<br>
+联系方式：0000-0000000<br>
+电子邮件:0000000000@qq.com
+
+</div>
+<div id="no2">
+<br><br><br><br><br><br><br>
+购票途径：<br>
+<img src="6.png" style="width: 50px">
+</div>
+
+
+</div>
+  </div>
+  </div>
+</body>
+</html>

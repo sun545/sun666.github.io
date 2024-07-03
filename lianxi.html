@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+<style type="text/css">
+  #main{width: 80%;margin: 0 auto;background-color: #e9cece;}
+    #head{height: 70px;width: 100%;background-color: #004B97}
+   #h1{color:white;width: 30%; padding-left: 200px;float: left;}
+   #h2{padding: 25px;float: left}
+   *{
+      margin: 0 auto;font-family: 楷体;
+    }
+    nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #004B97;
+            text-align: center;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+            color: white;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+</style>
+        </head>
+<body>
+<div id="main">
+   <div id="head">
+        <div id="h1"><p style="font-family:楷体,sans-serif;font-size:50px">你的名字</p></div>
+       <div id="h2"><nav>
+          <ul>
+           <li><a  href="fuben.html">首页</a></li>
+            <li><a href="zuozhe.html">作者简介</a></li>
+            <li><a href="https://www.4kvm.org/movies/ndmz">电影观看</a></li>
+         <li><a href="renwu.html">动漫人物分析</a></li>
+          <li><a href="jiedu.html">解读与剖析</a></li>
+           <li><a href="lianxi.html">联系我们</a></li>
+          
+            
+
+
+          </ul> 
+       </nav>              
+        </div>
+   </div><img src="13.gif" style="width: 100%; height: 500px">
+    <form action="/"method="post">
+        <!-- 文本输入框 -->
+        <label for="name">用户:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <!-- 密码输入框 -->
+        <label for="password">密码:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <label for="email">邮箱:</label>
+        <input type="text" id="email" name="email" required>
+        <br><br>
+        <label for="phone">电话:</label>
+        <input type="text" id="phone" name="phone" required>
+        <br><br>
+        <!-- 单选按钮 -->
+        <label>性别:</label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">男</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">女</label>
+        <br><br>
+
+        <!-- 复选框 -->
+        <label>评价:</label>
+        <input type="checkbox" id="lq" name="lq" checked>
+        <label for="lq">布局美观</label>
+        <input type="checkbox" id="zq" name="zq" checked>
+        <label for="zq">讲解细腻</label>
+        <input type="checkbox" id="hh" name="hh" checked>
+        <label for="hh">选材独特</label>
+        <input type="checkbox" id="tw" name="tw" checked>
+        <label for="tw">无懈可击</label>
+        <br><br>
+
+       
+
+        <!-- 下拉列表 -->
+        <label for="country">出生年份:</label>
+        <select id="country" name="country">
+            <option value="">2000</option>
+            <option value="">2001</option>
+            <option value="">2002</option>
+            <option value="">2003</option>
+            <option value="">2004</option>
+            <option value="">2005</option>
+            <option value="">2006</option>
+            <option value="">2007</option>
+
+        </select>
+        <br><br>
+         <!-- 多行文本输入框 -->
+        <label>你的留言:</label>
+        <textarea name="info" rows="5" cols="40">
+        </textarea>
+        <br>
+        <!-- 提交按钮 -->
+        <input type="reset" name="重置"><button>
+        <a style="color: black;text-decoration: none;" href="queren.html">确认</a></button>
+    </form> 
+</div>
+</body>
+</html>
